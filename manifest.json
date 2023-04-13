@@ -2,7 +2,7 @@
   "name": "Json Formatter",
   "short_name": "Json Formatter",
   "description": "Adds right click context menu to show selected text or hyperlink file content in Json Formatter in new tab.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "manifest_version": 3,
   "action": {
     "default_title": "Json Formatter"
