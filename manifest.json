@@ -1,14 +1,24 @@
 {
-    "author": "Somesh Kovi",
-    "name": "Json Editor",
-    "version": "1.0",
-    "description": "Json editor",
-    "manifest_version": 3,
-    "action": {
-        "default_title": "Click to open json editor"
-      },
-    "permissions": ["activeTab", "scripting"],
-    "background": {
-        "service_worker": "background.js"
-    }
+  "name": "Json Formatter",
+  "short_name": "Json Formatter",
+  "description": "Adds right click context menu to show selected text or hyperlink file content in Json Formatter in new tab.",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "Json Formatter"
+  },
+  "permissions": [
+    "contextMenus",
+    "downloads",
+    "scripting",
+    "storage",
+    "notifications"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png"
+  }
 }
